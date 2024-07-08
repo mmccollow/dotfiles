@@ -7,5 +7,5 @@ set showmatch
 set ruler
 set number
 set t_Co=256
-# remember to put molokai.vim in ~/.vim/colors
+" remember to put molokai.vim in ~/.vim/colors
 colorscheme molokai
