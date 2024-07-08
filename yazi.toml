@@ -1,0 +1,9 @@
+[opener]
+playmp3 = [
+	{ run = 'mpv "$@"', block = true },
+]
+
+[open]
+prepend_rules = [
+	{ name = "*.mp3", use = "playmp3" },
+]
